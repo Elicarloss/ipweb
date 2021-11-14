@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+
+    <p>
+        Uso da tag <code>table</code>
+    </p>
+
+    
+    <table border="2px">
+        <tr>
+            <td>Coluna 01 - linha - 01</td>
+            <td>Coluna 02 - linha - 01</td>
+            <td>Coluna 03 - linha - 01</td>
+        </tr>
+        <tr>
+            <td>Coluna - 01 - linha - 02</td>
+            <td>Coluna - 02 - linha - 02</td>
+            <td>Coluna - 02 - linha - 02</td>
+        </tr>
+    </table>
+
+    <p>Exemplo de tabela com Imagens</p>
+
+    <table border="1px">
+        <tr>
+            <td><img src="imagens/Herbie.jpg" alt="Herbie Fusca" height="100"></td>
+            <td>Herbie</td>            
+        </tr>
+        <tr>
+            <td>Coluna - 01 - linha - 02</td>
+            <td>Coluna - 02 - linha - 02</td>
+        </tr>
+    </table>
+
+    <p>Exemplo de tabelas exibindo dados</p>
+    <table border="2px">
+        <tr>
+            <td>Codigo</td>
+            <td>Descricao</td>
+            <td>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Camisa Oficial</td>
+            <td>500,00</td>
+        </tr>
+    </table>
+
+    <p>Usando th</p>
+
+    <table border="2px">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Camisa Oficial</td>
+            <td>500,00</td>
+        </tr>
+    </table>
+
+    <p>Usando porcentagem de 50%</p>
+
+    <table border="2px" width="50%">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Camisa Oficial</td>
+            <td>500,00</td>
+        </tr>
+    </table>
+    
+    <p>Usando width="400"</p>
+
+    <table border="2px" width="400">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td>Camisa Oficial</td>
+            <td>500,00</td>
+        </tr>
+    </table>
+
+    <p>Usando colspan para mesclar celulas</p>
+    <table border="2px" width="400">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>          
+            <td>400,00</td>
+        </tr>
+    </table>
+
+    <p>Usando rowspan para mesclar celulas</p>
+    <table border="2px" width="400">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>          
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Encargos</td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+    </table>
+
+    <!--
+        Falta implementar
+        cellpadding
+        cellspacing
+        bgcolor
+        
+
+        Criar uma pagina html para  demostrar o uso do atributo target (blank, parent etc) da tag a
+    -->
+
+    <p>Usando cellpadding para dá espaçamento entre o conteudo e as bordas em 10px</p>
+    <table border="2px" width="400" cellpadding="10">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>          
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Encargos</td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+    </table>
+
+    <p>Usando cellspacing para dá espaçamento entre as celulas em 10px</p>
+    <table border="2px" width="400" cellspacing="10">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>          
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Encargos</td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+    </table>
+
+    <p>Usando bgcolor para color cor de fundo em tabelas</p>
+    <table border="2px" width="400" bgcolor="green">
+        <tr>
+            <th>Codigo</td>
+            <th>Descricao</td>
+            <th>Valor</td>
+        </tr>
+        <tr>
+            <td>0001</td>
+            <td>Camisa polo Preta</td>
+            <td>250,00</td>
+        </tr>
+
+        <tr>
+            <td>0002</td>
+            <td>Bola de Futebol</td>
+            <td>150,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>          
+            <td>400,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Encargos</td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+
+        <tr>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+    </table>
+
+    <p>Usando o  target html</p>
+    <p>O blank abre em outra aba do navegador</p>
+    <a href="teste-target.html" target="_blank">Saiba mais</a>
+    <p>O parent fecha substitui a aba aberta pelo link</p>
+    <p>
+        <a href="teste-target.html" target="_parent">Saiba mais</a>
+    </p>
+    
+    <p>
+        <a href="teste-target.html" target="_top">Saiba mais</a>
+    </p>
+</body>
+</html>
