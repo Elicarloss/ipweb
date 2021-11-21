@@ -7,14 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <form action="">
+    <div">
+        <h1>Cadastro</h1>
+    <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
         Login: <br>
-        <input type="text" name="login"><br>
+        <input type="text" name="login" autofocus><br>
         <br>
 
         Senha: <br>
-        <input type="text" name="senha"><br>
+        <input type="text" name="senha" ><br>
         <br>
 
         Confirma senha: <br>
@@ -35,14 +36,28 @@
         <br>
 
         Interesses: <br>
-        <input type="checkbox" id="check01" name="interesse">Futebol <br>
-        <input type="checkbox" id="check02" name="interesse">Politica <br>
-        <input type="checkbox" id="check03" name="interesse">Economia <br>
-        <input type="checkbox" id="check04" name="interesse">Carros <br>
-        <input type="checkbox" id="check05" name="interesse">Celebridades <br>
+        <input type="checkbox" value="futebol" id="check01" name="interesse">Futebol <br>
+        <input type="checkbox" value="politica" id="check02" name="interesse">Politica <br>
+        <input type="checkbox" value="economia" id="check03" name="interesse">Economia <br>
+        <input type="checkbox" value="carros" id="check04" name="interesse">Carros <br>
+        <input type="checkbox" value="celebridades" id="check05" name="interesse">Celebridades <br>
         <br>
-        <input type="button" value="Salvar">
+
+        Estado: <br>
+        <select name="estado" id="">        
+                <option value="" selected>Selecione um estado</option>
+                <option value="PI">Piaui</option>
+                <option value="CE">Ceará</option>
+                <option value="MA">Maranhão</option>
+        
+        </select>
+        <br>
+        <br>
+        <textarea name="observacao" id="" placeholder="Observacao" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
     </form>
+    </div>
     
 </body>
 </html>
