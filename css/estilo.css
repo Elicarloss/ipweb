@@ -1,1 +1,70 @@
-ECHO est  ativado.
+.cabecalho {
+    height: 25;
+    background-color: red;
+    
+}
+
+.conteudo{
+   background-color: slateblue;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center; 
+    align-content: center;
+
+}
+
+
+.banner {
+    background-color: slateblue;
+    height: 100;
+}
+
+
+.banner, h1 {
+    
+    font-size: 50px; 
+    color: white;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5;
+    box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1);
+    transition: transform .45s ease, background .45s ease;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    border-radius: .5em;
+    width: 300;
+    height: 350;
+    margin-left: 5;
+    margin-right: 5;
+    background-color: white;
+    
+    
+    overflow: hidden;
+}
+.card ul {
+    margin-left: auto;
+    margin-right: auto;
+    color: slateblue;
+    
+    margin-top: auto;
+    margin-bottom: 5;
+}
+.row-card {
+    align-self: auto;
+    margin-top: 50;
+    display: flex;
+    width: 960;
+    margin-right: auto; 
+    margin-left: auto;
+    margin-bottom: 50;
+}
+
+
+
