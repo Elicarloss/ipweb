@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background: rgb(172, 190, 120);  
+}
+
+.postagem {
+    background: rgb(172, 190, 120);
+    height: 600px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.postagem img {
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.postagem h1 {
+    color: yellow;
+    text-shadow: 8px 1px 10px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.postagem p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-justify: auto;
+    
+}
+
+
+span {
+    width: 100%;
+    color: white;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: chartreuse;
+}
+
+
+a:hover {
+    color: rgb(255, 0, 55);
+    
+}
+
+a:active {
+    color: pink;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <ul>
+        <li class="pessoa" onclick="mostrarValor(this)" data-nome="Elicarlos Ferreira" data-idade="35" data-cpf="011.003.333-89">Elicarlos</li>
+        <li class="pessoa" onclick="mostrarValor(this)" data-nome="Isaac Nunes" data-idade="1" data-cpf="011.045.451-74">Isaac</li>
+        <li class="pessoa" onclick="mostrarValor(this)" data-nome="Leydiane Nunes" data-idade="30" data-cpf="78.411.254-35">Leydiane</li>
+    </ul>
+
+
+    <script type="text/javascript">
+        function mostrarValor(componente) {
+            var nome = componente.getAttribute('data-nome')
+            var idade = componente.getAttribute('data-idade')
+            var cpf = componente.getAttribute('data-cpf')
+
+            alert(nome)
+
+        }
+    </script>
+</body>
+</html>
